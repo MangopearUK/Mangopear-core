@@ -16,7 +16,7 @@
 
 	<div class="c-mega-nav">
 		<button class="o-button  o-button--secondary  c-mega-nav__button  js-head-navigation__menu__launcher" type="button">
-			<svg class="o-button__icon  o-button__icon--left" height="22" width="22" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#navigation"/></svg>
+			<svg class="o-button__icon  o-button__icon--left" height="22" width="22" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#navigation"/></svg>
 			<span class="o-button__text">Menu</span>
 		</button>
 

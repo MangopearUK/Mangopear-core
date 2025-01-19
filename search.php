@@ -44,7 +44,7 @@
 
 						<div class="o-form__action">
 							<button class="o-button  o-button--primary  o-form__button">
-								<svg class="o-button__icon  o-button__icon--left" height="32" width="32" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#search"/></svg>
+								<svg class="o-button__icon  o-button__icon--left" height="32" width="32" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#search"/></svg>
 								<span class="o-button__text  u-palm--hide">Search</span>
 							</button>
 						</div>

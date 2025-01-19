@@ -16,7 +16,7 @@
 
 	<div class="c-head__search">
 		<button class="o-button  o-button--secondary  c-mega-nav__button  js-head-navigation__search__launcher" type="button">
-			<svg class="o-button__icon  o-button__icon--left" height="22" width="22" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#search"/></svg>
+			<svg class="o-button__icon  o-button__icon--left" height="22" width="22" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#search"/></svg>
 			<span class="o-button__text  u-hide">Search</span>
 		</button>
 
@@ -34,13 +34,13 @@
 
 					<div class="o-form__action">
 						<button class="o-button  o-button--primary  o-form__button">
-							<svg class="o-button__icon  o-button__icon--left" height="32" width="32" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#search"/></svg>
+							<svg class="o-button__icon  o-button__icon--left" height="32" width="32" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#search"/></svg>
 							<span class="o-button__text  u-portable--hide">Search</span>
 						</button>
 
 
 						<button class="o-button  o-button--primary  o-form__close  js-head-navigation__search__launcher" type="button">
-							<svg class="o-button__icon  o-button__icon--left" height="32" width="32" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#close"/></svg>
+							<svg class="o-button__icon  o-button__icon--left" height="32" width="32" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#close"/></svg>
 							<span class="o-button__text  u-hide">Close search form</span>
 						</button>
 					</div>

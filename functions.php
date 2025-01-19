@@ -52,21 +52,15 @@ require_once get_template_directory() . '/includes/class.mangui.php';
  * 		@since 1.0.0
  */
 
-define(MANGOPEAR_SPRITE, get_site_url() . '/sprites/mangopear-core.svg');
+
+function mangopear_return_sprite() {
+	return get_site_url() . '/sprites/mangopear-core.svg';
+}
 
 
-
-
-
-/**
- * [3]	Define various theme variables
- *
- * 		These can be overwritten by child themes to allow for customisations.
- *
- * 		@since 1.0.0
- */
-
-define(BROWSER_TAB_COLOUR, '#499E00');
+function mangopear_output_sprite() {
+	echo mangopear_return_sprite();
+}
 
 
 

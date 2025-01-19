@@ -42,12 +42,12 @@
 				<?php if ($post->comment_status == 'open') : ?>
 					<?php if (get_option('comment_registration') && ! $user_ID) : ?>
 						<a href="<?php echo wp_login_url(get_permalink()); ?>" class="o-button  o-button--secondary  c-comments__header__action">
-							<svg class="o-button__icon  o-button__icon--left" height="24" width="24" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#add"/></svg>
+							<svg class="o-button__icon  o-button__icon--left" height="24" width="24" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#add"/></svg>
 							<span class="o-button__text">Add a comment</span>
 						</a>
 					<?php else : ?>
 						<button class="o-button  o-button--secondary  c-comments__header__action  js-comments__action--reveal-form">
-							<svg class="o-button__icon  o-button__icon--left" height="24" width="24" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#add"/></svg>
+							<svg class="o-button__icon  o-button__icon--left" height="24" width="24" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#add"/></svg>
 							<span class="o-button__text">Add a comment</span>
 						</button>
 					<?php endif; ?>
@@ -85,7 +85,7 @@
 						'class_form'			=> 	'c-comments__form',
 						'submit_button'			=> 	'<button class="o-button  o-button--primary  c-comments__header__action  js-comments__action--reveal-form">' .
 														'<span class="o-button__text">Post comment</span>' .
-														'<svg class="o-button__icon  o-button__icon--right" height="24" width="24" role="presentation"><use xlink:href="' . MANGOPEAR_SPRITE . '#arrow--right"/></svg>' .
+														'<svg class="o-button__icon  o-button__icon--right" height="24" width="24" role="presentation"><use xlink:href="' . mangopear_output_sprite() . '#arrow--right"/></svg>' .
 													'</button>',
 						'submit_field'			=> 	'<div class="o-form__submit">' .
 														'<div class="o-form__button">%1$s %2$s' .

@@ -26,6 +26,6 @@
 
 		<a class="o-button  o-button--secondary  o-button--social-login" href="/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Google&redirect_to=<?php echo urlencode('https://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]); ?>" rel="nofollow">
 			<span class="o-button__text">Sign in with Google</span>
-			<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#arrow--right"/></svg>
+			<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#arrow--right"/></svg>
 		</a>
 	</section><!-- /.c-social-login -->

@@ -60,7 +60,7 @@
 
 									<a href="<?php the_permalink(); ?>" class="o-button  o-button--secondary  c-article__link">
 										<span class="o-button__text">Continue reading</span>
-										<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#arrow--right"/></svg>
+										<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#arrow--right"/></svg>
 									</a>
 								</div>
 							</article>

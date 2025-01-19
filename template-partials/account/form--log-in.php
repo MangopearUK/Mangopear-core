@@ -53,7 +53,7 @@
 						<input class="u-hide  c-faux-check__input" type="checkbox" id="rememberme" name="rememberme" value="forever">
 
 						<label class="c-faux-check__label  c-checkout__account-check__label" for="rememberme">
-							<span class="c-faux-check__field"><svg class="c-faux-check__field__asset" height="30" width="30" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#tick"></use></svg></span>
+							<span class="c-faux-check__field"><svg class="c-faux-check__field__asset" height="30" width="30" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?php mangopear_output_sprite(); ?>#tick"></use></svg></span>
 							<span class="c-faux-check__label__text">Keep me logged in</span>
 						</label>
 					</div><!-- /.c-faux-check -->
@@ -63,13 +63,13 @@
 				<div class="frm_submit">
 					<button class="o-button  o-button--primary" type="submit">
 						<span class="o-button__text">Log in</span>
-						<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#arrow--right"/></svg>
+						<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#arrow--right"/></svg>
 					</button>
 
 
 					<a href="/wp-login.php?action=lostpassword" class="o-button  o-button--tertiary">
 						<span class="o-button__text">Reset password</span>
-						<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php echo MANGOPEAR_SPRITE; ?>#arrow--right"/></svg>
+						<svg class="o-button__icon  o-button__icon--right" height="22" width="22" role="presentation"><use xlink:href="<?php mangopear_output_sprite(); ?>#arrow--right"/></svg>
 					</a>
 				</div><!-- /.frm_submit -->
 			</form>
